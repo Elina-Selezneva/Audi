@@ -445,16 +445,15 @@ a{
 
 .slider__img{
     width: 100%;
-    height: 250px;
     overflow: hidden;
 }
 
 .slider__img_opacity{
     background-color: #000;
-    width: 100%;
-    height: 100%;
+    overflow: hidden;
     background-size: cover;
 }
+
 
 .slider__img_img:hover{
     opacity: .5;
@@ -478,7 +477,6 @@ a{
 
 .slider__img_opacity:hover{
     background: #000;
-    z-index: 100;
 }
 
 .slider{
@@ -505,8 +503,6 @@ a{
     background: url("img/icons/arrow-right.svg") 0 0 / 100% no-repeat;
 }
 .color-page{
-    /*height: 400px;*/
-    /*min-height: 600px;*/
     background: url('img/color-fon.jpg') no-repeat;
     background-size: 100%;
     background-position: center;
